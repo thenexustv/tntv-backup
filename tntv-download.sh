@@ -1,6 +1,7 @@
 #!/bin/bash
 
 urlbase=https://s3.amazonaws.com/the-nexus-tv/podcasts/
+podcasts="podcasts/"
 
 function getseries(){
     local i=1
@@ -14,9 +15,9 @@ function getseries(){
     return 0
 }
 function getpodcast(){
-    if [[ ! -e "$1$2.mp3" ]] ; then
+    if [[ ! -e "$podcasts$1/$1$2.mp3" ]] ; then
         sleep 2  # just to be nice
-        wget -P "podcasts/" "$urlbase$1/$1$2.mp3"
+        wget -P "$podcasts$1/" "$urlbase$1/$1$2.mp3"
     fi
 }
 

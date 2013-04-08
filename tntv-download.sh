@@ -21,7 +21,7 @@ function getseries(){
     return 0
 }
 function getpodcast(){
-	if [[ $ryanStyle ]] ; then
+	if $ryanStyle ; then
 		podcasts="$scriptPath/$1"
 	else
 		podcasts="$scriptPath"
@@ -29,7 +29,7 @@ function getpodcast(){
     if [[ ! -e "$podcasts/$1$2.mp3" ]] ; then
         sleep 2  # just to be nice
 		if $ryanStyle ; then
-			wget --no-check-certificate -P "$podcasts$1/" "$urlbase$1/$1$2.mp3"
+			wget --no-check-certificate -P "$podcasts/" "$urlbase$1/$1$2.mp3"
 		else
 			wget --no-check-certificate "$urlbase$1/$1$2.mp3"
 		fi

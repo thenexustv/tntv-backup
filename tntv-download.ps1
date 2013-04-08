@@ -1,6 +1,6 @@
 # Don't forget about PowerShell's security policy
 # as administrator, run: Set-ExecutionPolicy RemoteSigned
-# or set by the command line when run: PowerShell -ExecutionPolicy RemoteSigned .\tntvDownload.ps1
+# or set by the command line when run: PowerShell -ExecutionPolicy RemoteSigned .\tntv-download.ps1
 
 # should each series have its own subfolder?
 $ryanStyle = $TRUE

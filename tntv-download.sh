@@ -57,6 +57,9 @@ getpodcast cs 0 # i'm special!
 # Eight Bit
 getseries eb
 
+# The Extra Dimension
+getseries ted
+
 # Nexus Special
 getseries ns
 getpodcast ns 5x

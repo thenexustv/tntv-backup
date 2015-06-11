@@ -64,6 +64,9 @@ getseries ted
 getseries ns
 getpodcast ns 5x
 
+# Podkit
+getseries pk
+
 # The Fringe
 getseries tf
 getpodcast tf 1x

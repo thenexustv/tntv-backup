@@ -67,6 +67,9 @@ getpodcast ns 5x
 # Podkit
 getseries pk
 
+#Second Opinion
+getseries so
+
 # The Fringe
 getseries tf
 getpodcast tf 1x

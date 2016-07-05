@@ -72,6 +72,15 @@ getseries eb
 getseries ns
 getpodcast ns 5x
 
+# # Podkit
+getseries pk
+
+# # Second Opinion
+getseries so
+
+# # The Extra Dimension
+getseries ted
+
 # # The Fringe
 getseries tf
 getpodcast tf 1x

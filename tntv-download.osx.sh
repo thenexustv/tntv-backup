@@ -70,6 +70,7 @@ getseries eb
 
 # # In Bootcamp
 getseries ib
+getpodcast ib 0
 
 # # Nexus Special
 getseries ns

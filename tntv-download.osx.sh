@@ -68,12 +68,20 @@ getpodcast cs 0 # i'm special!
 # # Eight Bit
 getseries eb
 
+# # In Bootcamp
+getseries ib
+getpodcast ib 0
+
 # # Nexus Special
 getseries ns
 getpodcast ns 5x
 
 # # Podkit
 getseries pk
+
+# # Robots Will Steal Your Job
+getseries rsj
+getpodcast rsj 0 # intro
 
 # # Second Opinion
 getseries so
@@ -88,5 +96,4 @@ getpodcast tf 1x
 # # The Universe
 getseries tu
 getpodcast tu 18x
-
 

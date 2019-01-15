@@ -57,6 +57,10 @@ getpodcast cs 0 # i'm special!
 # Eight Bit
 getseries eb
 
+# In Bootcamp
+getseries ib
+getpodcast ib 0
+
 # The Extra Dimension
 getseries ted
 
@@ -66,6 +70,10 @@ getpodcast ns 5x
 
 # Podkit
 getseries pk
+
+# Robots Will Steal Your Job
+getseries rsj
+getpodcast rsj 0 # intro
 
 #Second Opinion
 getseries so
